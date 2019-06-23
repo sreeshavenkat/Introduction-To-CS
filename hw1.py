@@ -33,7 +33,7 @@ def two_of_three(a, b, c):
 
 def largest_factor(n):
     """
-    Return the largest factor of n.
+    Return the largest factor of nt.
 
     >>> largest_factor(15) # factors are 1, 3, 5
     5
