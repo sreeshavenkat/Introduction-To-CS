@@ -12,21 +12,21 @@ def both_positive(x, y):
     return x and y > 0
 
 def should_get_one_free(x, y):
-	"""
-	A store is having a buy one get one free sale, but should only offer this discount if
-	the second item costs less than the first, and if the total cost of the items is under $20.
-
-	Write a function that takes two numbers prices as input (representing the two item prices)
-	and returns True if the second item (y) costs less than the first (x), and if the total cost of the items is under $20.
-	You should not use if in your solution
-	>>> should_get_one_free(65, 12)
+    """
+    A store is having a buy one get one free sale, but should only offer this discount if
+    the second item costs less than the first, and if the total cost of the items is under $20.
+    
+    Write a function that takes two numbers prices as input (representing the two item prices)
+    and returns True if the second item (y) costs less than the first (x), and if the total cost of the items is under $20.
+    You should not use if in your solution
+    >>> should_get_one_free(65, 12)
     False
     >>> gets_discount(9, 70)
     False
     >>> gets_discount(10, 8)
     True
-	"""
-	"*** YOUR CODE HERE ***"
+    """
+    "*** YOUR CODE HERE ***"
 
 def is_factor(x, y):
     """ 
